@@ -3,14 +3,6 @@ body
 	background-color:#f8f9f9;
 }
 
-.main-body
-{
-	left:100px;
-	right:100px;
-	height: 800px;
-	position: absolute;
-
-}
 .nav
 {
 	height: 90px;
@@ -58,6 +50,7 @@ body
 	font-family: PT sans;
 	font-size: 30px;
 	color: #575555;
+	text-decoration:none;
 }
 .topics-list
 {
@@ -96,4 +89,93 @@ body
 	color: #575555;
 	display: block;
 	margin-top: 20px;
+	text-decoration:none;
+}
+.main-body
+{
+	left:100px;
+	right:100px;
+	height: 800px;
+	position: absolute;
+
+}
+
+.nav-small
+{
+	display: block;
+	width:290px;
+	height: 45px;
+	position: absolute;
+	margin-top: -49px;
+	left: 0px;
+}
+
+.themes
+{
+	left:20px;
+	right:20px;
+	position: absolute;
+}
+
+.themes-list
+{
+	margin: 30px 15px;
+}
+.theme a
+{color: inherit; }
+.theme
+{
+	font-family: PT Sans;
+	font-size: 18px;
+	text-decoration: underline;
+	color: #575555;
+	text-align: left;
+	padding: 15px 10px;
+}
+
+.theme-img
+{
+	width:15px;
+	height:12px;
+	margin-right: 5px;
+}
+
+.nav-small-block-0,.nav-small-block-1
+{
+	display: block;
+	width:145px;
+	height: 45px;
+	position: absolute;
+	-webkit-border-radius: 6px 6px 0px 0px;
+	-moz-border-radius:6px 6px 0px 0px;
+	border-radius: 6px 6px 0px 0px;
+	background-color: #efebeb;
+	border-top: solid 2px #dcd9d9;
+	border-left: solid 2px #dcd9d9;
+	border-right: solid 2px #dcd9d9;
+	font-family: PT Sans;
+	font-size: 20px;
+	color: #575555;
+	cursor: pointer;
+}
+.nav-small-block-0
+{
+	left:0px;
+	width:155px;
+	height: 57px;
+	margin-top: -10px;
+	z-index: 10;
+	line-height: 57px;
+}
+.nav-small-block-1
+{
+	left:145px;
+	border-bottom: solid 2px #dcd9d9;
+	line-height: 45px;
+}
+.nav-small-img
+{
+	width: 20px;
+	height: 20px;
+	margin-top: -3px;
 }
