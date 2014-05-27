@@ -36,64 +36,88 @@ body
 .topics-block-wrapper
 {
 	text-align: center;
-	margin:0px 100px 50px 100px;
-}
-.topics-block-wrapper:before {
-	content: '';
-	display: inline-block;
-	height: 100%;
-	vertical-align: middle;
-	margin-right: -0.25em; /* Adjusts for spacing */
-}
-.topics-block
-{
-	display: inline-block;
-	vertical-align: middle;
-	width: 100%;
-}
-
-.title
-{
-	text-align: center;
-	font-family: PT sans;
-	font-size: 30px;
-	color: #575555;
-}
-.topics-list
-{
-	 margin: 0 10px;
-	 margin-top: 80px;
-	 display: inline-block;
-}
-
-.topic
-{
-	width: 200px;
-	height: 250px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
+	margin:90px 0px 0px 0px;
 	background-color: #efebeb;
-	border: solid 3px #dcd9d9;
-	display: inline-block;
-	float: left;
-	margin: 13px 13px;
-	-webkit-box-shadow: 3px 4px 9px rgba(1,2,4,.3);
-	-moz-box-shadow: 3px 4px 9px rgba(1,2,4,.3);
-	box-shadow: 3px 4px 9px rgba(1,2,4,.3);
-	cursor: pointer;
+	height: 100%;
+	border: solid 2px #dcd9d9;
 }
-.topic-img
+
+.nav-small
 {
-	margin: 5px;
-	margin-top: 15px;
 	display: block;
+	width:290px;
+	height: 45px;
+	position: absolute;
+	margin-top: -49px;
+	left: 0px;
 }
-.small-title
+
+.themes
+{
+	left:20px;
+	right:20px;
+	position: absolute;
+}
+
+.themes-list
+{
+	margin: 30px 15px;
+}
+.theme a
+{color: inherit; }
+.theme
 {
 	font-family: PT Sans;
-	font-size: 24px;
+	font-size: 18px;
+	text-decoration: underline;
 	color: #575555;
+	text-align: left;
+	padding: 15px 10px;
+}
+
+.theme-img
+{
+	width:15px;
+	height:12px;
+	margin-right: 5px;
+}
+
+.nav-small-block-0,.nav-small-block-1
+{
 	display: block;
-	margin-top: 20px;
+	width:145px;
+	height: 45px;
+	position: absolute;
+	-webkit-border-radius: 6px 6px 0px 0px;
+	-moz-border-radius:6px 6px 0px 0px;
+	border-radius: 6px 6px 0px 0px;
+	background-color: #efebeb;
+	border-top: solid 2px #dcd9d9;
+	border-left: solid 2px #dcd9d9;
+	border-right: solid 2px #dcd9d9;
+	font-family: PT Sans;
+	font-size: 20px;
+	color: #575555;
+	cursor: pointer;
+}
+.nav-small-block-0
+{
+	left:0px;
+	width:155px;
+	height: 57px;
+	margin-top: -10px;
+	z-index: 10;
+	line-height: 57px;
+}
+.nav-small-block-1
+{
+	left:145px;
+	border-bottom: solid 2px #dcd9d9;
+	line-height: 45px;
+}
+.nav-small-img
+{
+	width: 20px;
+	height: 20px;
+	margin-top: -3px;
 }
