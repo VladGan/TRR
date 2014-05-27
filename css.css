@@ -30,6 +30,13 @@ body
 	text-align: center;
 	margin:0px 100px 50px 100px;
 }
+.topics-block-wrapper2{
+	text-align: center;
+	margin:90px 0px 0px 0px;
+	background-color: #efebeb;
+	height: 100%;
+	border: solid 2px #dcd9d9;
+}
 .topics-block-wrapper:before {
 	content: '';
 	display: inline-block;
