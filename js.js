@@ -9,6 +9,11 @@ $(document).ready(function(){
 		$(".nav-small-block-" + a).css("line-height","57px");
 		$(".nav-small-block-" + a).css("border-bottom","none");
 
+		if (a == 0)
+		$(".nav-small-block-add").css("right","-51px");
+			else
+		$(".nav-small-block-add").css("right","-61px");
+
 		$(".nav-small-block-" + ((a+1)%2)).css("width","145px");
 		$(".nav-small-block-" + ((a+1)%2)).css("height","45px");
 		$(".nav-small-block-" + ((a+1)%2)).css("z-index","0");
@@ -23,4 +28,6 @@ $(document).ready(function(){
 		change(1)});
 	$(".logo").click(function (){
 		 window.location = 'index.html';});
+	$(".nav-small-block-add").click(function (){
+		 window.location = 'index3.html';});
 });

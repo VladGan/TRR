@@ -181,6 +181,28 @@ body
 	border-bottom: solid 2px #dcd9d9;
 	line-height: 45px;
 }
+.nav-small-block-add
+{
+	display: block;
+	width: 36px;
+	height: 36px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #efebeb;
+	border: solid 3px #dcd9d9;
+	position: absolute;
+	right: -51px;
+	cursor: pointer;
+}
+
+.add-img
+{
+	width: 27px;
+	height: 27px;
+	margin-top:4px;
+}
+
 .nav-small-img
 {
 	width: 20px;
