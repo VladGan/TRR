@@ -21,4 +21,6 @@ $(document).ready(function(){
 		change(0)});
 	$("#2_nav-small").click(function (){
 		change(1)});
+	$(".logo").click(function (){
+		 window.location = 'index.html';});
 });

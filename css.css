@@ -24,6 +24,7 @@ body
 	top: 10px;
 	padding: 10px 15px;
 	margin-top: 10px;
+	cursor: pointer;
 }
 .topics-block-wrapper
 {
@@ -229,16 +230,12 @@ body
    -webkit-border-radius: 0px;
    -moz-border-radius: 0px;
    border-radius: 0px;
-   -webkit-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
-   -moz-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
-   box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
-   font-family: 'Helvetica Neue',Helvetica,sans-serif;
+   font-family: PT Sans,Helvetica,sans-serif;
    text-decoration: none;
    vertical-align: middle;
    min-width:300px;
-   padding:20px;
    width: 100%;
-   margin-top: 50px;
+   margin-top: 30px;
    text-align:left;
    }
 .form-field {
@@ -254,6 +251,9 @@ body
    padding:8px;
    margin-bottom:20px;
    width:280px;
+   margin-left: 10px;
+   margin-top: -7px;
+
    }
 .form-field:focus {
    background: #fff;
@@ -262,20 +262,26 @@ body
 .form-container h2 {
    text-shadow: #fdf2e4 0 1px 0;
    font-size:18px;
-   margin: 0 0 10px 0;
+   margin: 0 0 50px 0;
    font-weight:bold;
    text-align:center;
+   margin-top: 20px; 
     }
 .form-title {
    margin-bottom:10px;
    color: #725129;
    text-shadow: #fdf2e4 0 1px 0;
    text-align: left;
-      display: inline;
+   display: inline;
+   margin-left: 40px;
+   vertical-align: top;
+   margin-top: 5px;
    }
 .submit-container {
    margin:8px 0;
-   text-align:right;
+   text-align:left;
+   margin-left:95px;
+   margin-bottom: 20px;
    }
 .submit-button {
    border: 1px solid #ffffff;
@@ -324,3 +330,11 @@ body
    background-image: -ms-linear-gradient(top, #6aa436 0%, #8dc059 100%);
    color: #fff;
    }
+
+.big
+ {
+ 	min-width: 650px;
+ 	max-width: 750px;
+ 	min-height: 200px;
+ 	margin-left: 15px;
+ }
